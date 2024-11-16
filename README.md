@@ -5,6 +5,7 @@ Replication Package for the paper: "Prompt engineering and its implications on t
 - Analysis: This folder contains the scripts we used to perform the analysis (exact-match, edit-distance, average consumption, execution time).
 - Experiments: This folder contains all the results we obtained from our study. See the next section for further details.
 - GroundTruth: This folder contains the ground truth dataset we used to analyse the accuracy of the LLM. We generated it from the code-to-code test dataset of codeXGLUE.
+- Snippets: This folder contains the scripts we used to query Llama3-Instruct.
 
 **Description of the Experiments Folder**
 - This folder contains our results obtained from the execution of the Llama3-Instruct inference. Since each sub-folder contains 15k files, we compressed the files.
